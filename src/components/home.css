@@ -1,0 +1,142 @@
+.image {
+  width: 350px;
+}
+/* 
+.extension {
+  width: 350px;
+  background-color: white;
+  height: 100px;
+} */
+
+/* .circle {
+  border-radius: 50%;
+  display: inline-block;
+  width: 110px;
+  line-height: 90px;
+  padding: 10px;
+  margin: 0;
+  background: #fff;
+  text-align: center;
+  border: 1px solid #000;
+  color: #000;
+} */
+
+.circle-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.yellow{
+  background-color: rgb(238,163,2);
+}
+
+.red{
+  background-color: rgb(247,189,182);
+}
+
+.blue{
+  background-color:rgb(128,216,218) ;
+}
+
+.circle:hover {
+  background-color: #e2e2e2;
+  box-shadow: 0 0 6px black;
+}
+
+.circle-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+@media (max-width: 1071px) {
+  .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .circle-text {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+ 
+}
+@media only screen and (max-width: 700px) and (min-width: 576px) {
+  .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .circle-text {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+ 
+}
+
+@media (max-width: 382px) {
+  .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .circle-text {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 993px) {
+  .image {
+    width: 250px;
+  }
+  /* .extension {
+    width: 250px;
+    background-color: white;
+    height: 100px;
+  } */
+}

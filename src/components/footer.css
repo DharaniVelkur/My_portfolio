@@ -1,0 +1,29 @@
+.textstyle{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    /* position: relative;
+    height: max-content;
+    left: 0;
+    bottom: 0; */
+    width: 100%;
+  }
+
+  html ,body{
+    height: 100%;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .footer {
+    margin-top: auto;
+  }
