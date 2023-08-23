@@ -18,8 +18,8 @@ const Home = () => {
             <p >A graduate with a strong passion for coding. I am thrilled to embark on my professional journey as a developer and utilize my skills to create impactfull and visually stunning websites. </p>
             <Divider/>
             <div className='circle-container'>
-              <div className='circle yellow'  onClick={()=>{navigate('/resume')}}>
-                <div className='circle-text'>Resume</div>
+              <div className='circle yellow'  onClick={()=>{navigate('/skills')}}>
+                <div className='circle-text'>Skills</div>
               </div>
               <div className='circle blue'  onClick={()=>{navigate('/projects')}}>
                 <div className='circle-text'>Projects</div>

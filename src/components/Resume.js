@@ -12,19 +12,22 @@ import cvPDF from "./images/Resume.pdf";
 import { saveAs } from "file-saver";
 import UpArrowButton from "./UpArrowButton";
 const Resume = () => {
-  const handleDownloadCV = () => {
-    const newWindow = window.open();
-    newWindow.document.open();
-    newWindow.document.write("<html><body>");
-    newWindow.document.write(
-      `<embed src="${cvPDF}" width="100%" height="100%" type="application/pdf">`
-    );
-    newWindow.document.write("</body></html>");
-    newWindow.document.close();
+  // const handleDownloadCV = () => {
+  //   const newWindow = window.open();
+  //   newWindow.document.open();
+  //   newWindow.document.write("<html><body>");
+  //   newWindow.document.write(
+  //     `<embed src="${cvPDF}" width="100%" height="100%" type="application/pdf">`
+  //   );
+  //   newWindow.document.write("</body></html>");
+  //   newWindow.document.close();
 
-    // Trigger a download of the PDF file
-    saveAs(cvPDF, "VelkurDharani'sResume.pdf");
-  };
+  // Trigger a download of the PDF file
+  //   saveAs(cvPDF, "VelkurDharani'sResume.pdf");
+  // };
+  const openLink =()=>{
+    window.open('https://drive.google.com/file/d/1Z8t0wn2KxTvNWkxVNeH4xoiaC7YrQkt6/view?usp=sharing',"_blank");
+  }
   return (
     <>
       <div className="container">
@@ -38,9 +41,8 @@ const Resume = () => {
           <button
             className="btn btn-primary"
             style={{ borderRadius: "25px" }}
-            onClick={handleDownloadCV}
-          >
-            Download CV
+            onClick={openLink}
+          >View CV
           </button>
         </div>
         <br />
