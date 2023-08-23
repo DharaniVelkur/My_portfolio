@@ -159,15 +159,15 @@ const Resume = () => {
           <div className="card">
             <div className="card-body text-center">
             <p>Certified from an IIMA & IITM Incubated Company <b>GUVI</b> for the successful completion of <b>FULL STACK DEVELOPMENT PROGRAM.</b></p>
-            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=1569DM70T0PKS194O3&download=true" target="_blank">View Html certification </a><br/>
-            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=9vu87V126003K4j569&download=true" target="_blank">View CSS certification</a><br/>
-            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=p5lNv499msZ1u03076&download=true" target="_blank">View JAVASCRIPT certification</a><br/>
-            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=5Y77Q30490019Fj86v&download=true" target="_blank">View BOOTSTRAP certification</a><br/>
-            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=0ys0LQC17493605hp9&download=true" target="_blank">View MONGODB certification</a><br/>
-            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=74302106P9qze1g9l5&download=true" target="_blank">View MYSQL certification</a><br/>
-            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=7Y13g9q00S4v5j6V9e&download=true" target="_blank">View NODEJS certification</a><br/>
-            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=5k84b93KQa79r60G01&download=true" target="_blank">View REACT certification</a><br/>
-            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=09K34c0Z19g56NEJi7&download=true" target="_blank">View FSD certification</a><br/>
+            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=1569DM70T0PKS194O3&download=false" target="_blank">View Html certification </a><br/>
+            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=9vu87V126003K4j569&download=false" target="_blank">View CSS certification</a><br/>
+            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=p5lNv499msZ1u03076&download=false" target="_blank">View JAVASCRIPT certification</a><br/>
+            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=5Y77Q30490019Fj86v&download=false" target="_blank">View BOOTSTRAP certification</a><br/>
+            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=0ys0LQC17493605hp9&download=false" target="_blank">View MONGODB certification</a><br/>
+            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=74302106P9qze1g9l5&download=false" target="_blank">View MYSQL certification</a><br/>
+            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=7Y13g9q00S4v5j6V9e&download=false" target="_blank">View NODEJS certification</a><br/>
+            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=5k84b93KQa79r60G01&download=false" target="_blank">View REACT certification</a><br/>
+            <a className="certificatestyle" href="https://www.guvi.in/certificate?id=09K34c0Z19g56NEJi7&download=false" target="_blank">View FSD certification</a><br/>
             </div>
           </div>
         </div>
