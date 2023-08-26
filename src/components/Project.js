@@ -7,7 +7,8 @@ import tictactoepic from './images/tictactoe.jpg';
 import moviespic from './images/movies.jpg';
 import stopwatchpic from './images/stopwatch.jpg';
 import dictionarypic from './images/dictionary.jpg';
-import nationalitypic from './images/nationality.png'
+import nationalitypic from './images/nationality.png';
+import chatimage from './images/chatimage.png';
 import UpArrowButton from './UpArrowButton';
 const Project = () => {
     const projects=[
@@ -19,6 +20,15 @@ const Project = () => {
             link:"https://capstone-frontend-plum.vercel.app/dashboard",
             frontend:"https://github.com/DharaniVelkur/capstone-frontend",
             backend:"https://github.com/DharaniVelkur/capstone-backend"
+        },
+        {
+          image:chatimage,
+          projectName:"Realtime Chat App",
+          type:"Full Stack Project",
+          description:"A real-time chat application is a dynamic and interactive digital tool that empowers users to engage in live conversations.This project uses react for frontend, nodejs for backend and socket.io for real time chat.",
+          link:"https://chat-frontend-henna.vercel.app/",
+          frontend:"https://github.com/DharaniVelkur/chat-frontend",
+          backend:"https://github.com/DharaniVelkur/chat-backend"
         },
         {
           image:nationalitypic,
