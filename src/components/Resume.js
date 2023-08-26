@@ -8,8 +8,6 @@ import bootstrapimage from "./images/bootstrap.png";
 import sqlimage from "./images/sql.png";
 import mongoimage from "./images/mongo.png";
 import nodeimage from "./images/nodejs.png";  
-import cvPDF from "./images/Resume.pdf";
-import { saveAs } from "file-saver";
 import UpArrowButton from "./UpArrowButton";
 const Resume = () => {
   // const handleDownloadCV = () => {
@@ -26,7 +24,7 @@ const Resume = () => {
   //   saveAs(cvPDF, "VelkurDharani'sResume.pdf");
   // };
   const openLink =()=>{
-    window.open('https://drive.google.com/file/d/1Z8t0wn2KxTvNWkxVNeH4xoiaC7YrQkt6/view?usp=sharing',"_blank");
+    window.open('https://drive.google.com/file/d/1PAcqbcxWnqfjE2mhYXglIW74hZb4osaY/view?usp=sharing',"_blank");
   }
   return (
     <>
