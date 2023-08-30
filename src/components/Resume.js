@@ -9,6 +9,7 @@ import sqlimage from "./images/sql.png";
 import mongoimage from "./images/mongo.png";
 import nodeimage from "./images/nodejs.png";  
 import UpArrowButton from "./UpArrowButton";
+
 const Resume = () => {
   // const handleDownloadCV = () => {
   //   const newWindow = window.open();

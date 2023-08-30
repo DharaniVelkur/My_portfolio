@@ -10,6 +10,7 @@ import dictionarypic from './images/dictionary.jpg';
 import nationalitypic from './images/nationality.png';
 import chatimage from './images/chatimage.png';
 import UpArrowButton from './UpArrowButton';
+import wordleimage from "./images/wordle.jpg";
 const Project = () => {
     const projects=[
         {
@@ -37,6 +38,14 @@ const Project = () => {
           description:"This is about when user enters some person's name, it generates top 2 countries for that entered name with their probabilities. This project uses javascript,html,css,bootstrap for frontend and it is fully responsive.",
           link:"https://fantastic-puffpuff-f906ac.netlify.app/",
           frontend:"https://github.com/DharaniVelkur/firstwebcode"
+        },
+        {
+          image:wordleimage,
+          projectName:"Wordle",
+          type:"Frontend Project",
+          description:"This project uses react and pure css and it is fully responsive.",
+          link:"https://wordle-eight-orpin.vercel.app/",
+          frontend:"https://github.com/DharaniVelkur/wordle"
         },
         {
           image:amazonpic,
