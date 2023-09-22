@@ -81,14 +81,14 @@ const Project = () => {
           link:"https://dictionary-virid.vercel.app/",
           frontend:"https://github.com/DharaniVelkur/dictionary"
         },
-        {
-          image:tictactoepic,
-          projectName:'Tictactoe',
-          type:"Front end Project",
-          description:"This project uses react,bootstrap for frontend and it is fully responsive.",
-          link:"https://tictactoe-alpha-umber.vercel.app/",
-          frontend:"https://github.com/DharaniVelkur/tictactoe"
-        },
+        // {
+        //   image:tictactoepic,
+        //   projectName:'Tictactoe',
+        //   type:"Front end Project",
+        //   description:"This project uses react,bootstrap for frontend and it is fully responsive.",
+        //   link:"https://tictactoe-alpha-umber.vercel.app/",
+        //   frontend:"https://github.com/DharaniVelkur/tictactoe"
+        // },
       
         {
           image:stopwatchpic,
